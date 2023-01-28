@@ -4,6 +4,11 @@
   transition: background-color 1s ease-in;
 }
 
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
 .app__header,
 .app__main {
   width: 100%;
@@ -14,12 +19,42 @@
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    
 }
 
 /*  Search bar */
+.api-head {
+  background-color: #759eda;
+  width: auto;
+  height: 100px;
+padding: 10px;
 
+}
+.btn {
+  margin-left: 15px;
+  background-color: #5879c7;
+  border:none;
+  padding: 20px;
+}
 /* Current weather */
 
 div {
-  border: 5px solid red;
+   background-color:#9ccef4; 
+  
+}
+.search{
+  opacity:60%;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.search ::placeholder {
+  color:white;
+}
+ .fgh{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  
 }
